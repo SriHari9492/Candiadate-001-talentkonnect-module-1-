@@ -1,0 +1,49 @@
+
+  .expert-grid {
+    display: flex;
+    flex-wrap: wrap; /* Ensures cards flow onto new lines */
+    gap: 20px;
+    justify-content: center; /* Centers the cards */
+  }
+.expert-card {
+    background: white;
+    width: 400px;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+  }
+  
+  .expert-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .primary-btn {
+    background: #009688;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .secondary-btn {
+    background: transparent;
+    color: #009688;
+    border: 2px solid #009688;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .primary-btn:hover {
+    background: #00796B;
+  }
+  
+  .secondary-btn:hover {
+    background: #009688;
+    color: white;
+  }
+  
